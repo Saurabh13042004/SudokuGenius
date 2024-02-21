@@ -1,0 +1,59 @@
+body {
+    font-family: Calibri, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+#id {
+    margin: 50px auto; /* Center the content */
+    max-width: 600px; /* Limit width of content */
+    padding: 20px; /* Add some padding */
+    background-color: #fff; /* White background for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+
+colgroup,
+tbody {
+    border: solid 2px #aaa; /* Medium gray border */
+}
+
+td {
+    border: solid 1px #ddd; /* Light gray border */
+    height: 1.4em;
+    width: 1.4em;
+    text-align: center;
+    padding: 0;
+}
+
+button {
+    margin-top: 15px;
+    font-size: 1.2em;
+    padding: 10px 20px; /* Add padding */
+    background-color: #4CAF50; /* Green background */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#clear-button {
+    background-color: #f44336; /* Red background for clear button */
+}
+
+#clear-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
